@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="../CSS/services.css">
+</head>
+<body>
+    <header>
+        <img src="../Images/logo.png" alt="My Site Logo" class="site-logo">
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../Pages/Services.html">Services</a></li>
+                <li><a href="../Pages/Shop.html">Shop</a></li>
+                <li><a href="../Pages/Contact Us.html">Contact Us</a></li>
+                <li><a href="../Pages/About Us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="services">
+        <h2>Our Services</h2>
+        <p>Discover the wide range of services we offer to meet your needs.</p>
+        
+        <div class="service-grid">
+            <div class="service-item">
+                <img src="../Images/Components.png" alt="Service 1">
+                <h3>Component Sales</h3>
+                <p>Computer components are the building blocks of any computer system, working together to perform various tasks and operations.</p>
+                <a href="#" class="read-more-btn" data-modal-id="modal1">Read more</a>
+            </div>
+            
+            <!-- Hidden modal content for Service 1 -->
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Component Sales</h2>
+                    <p>Computer components are the building blocks of any computer system, working together to perform various tasks and operations. From the central processing unit (CPU) that acts as the brain of the computer to the memory modules (RAM) that temporarily store data, each component plays a crucial role in the overall functionality of the system.
+    
+                        Key components include the motherboard, which serves as the main circuit board connecting all other components, and the storage devices such as hard disk drives (HDDs) or solid-state drives (SSDs) where data is permanently stored.
+                        
+                        Graphics processing units (GPUs) handle graphical computations and are essential for gaming and multimedia applications, while input/output (I/O) devices like keyboards, mice, and monitors allow users to interact with the computer.
+                        
+                        Understanding the functions and capabilities of each component is essential for building and maintaining a reliable and efficient computer system.</p>
+                </div>
+            </div>
+    
+            <!-- Service 2 -->
+            <div class="service-item">
+                <img src="../Images/Laptop Repairs.png" alt="Service 2">
+                <h3>Laptop Repairs</h3>
+                <p>Laptop repairs require a delicate balance of technical expertise and precision to restore your device to its optimal functionality.</p>
+                <a href="#" class="read-more-btn" data-modal-id="modal2">Read more</a>
+            </div>
+            <!-- Hidden modal content for Service 2 -->
+            <div id="modal2" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Laptop Repairs</h2>
+                    <p>Laptop Repairs
+
+                        Laptop repairs require a delicate balance of technical expertise and precision to restore your device to its optimal functionality. Our skilled technicians are equipped to handle a wide range of laptop issues, from hardware malfunctions to software glitches.
+                        
+                        The repair process begins with a thorough diagnosis of the problem, where our technicians carefully examine your laptop to identify the root cause of the issue. Whether it's a cracked screen, malfunctioning keyboard, or a virus-infected operating system, we prioritize accuracy in pinpointing the problem to ensure effective solutions.
+                        
+                        Once the issue is identified, our technicians employ industry-leading tools and techniques to execute the necessary repairs with utmost care. From replacing damaged components to reconfiguring software settings, every step is executed with precision to ensure seamless performance and longevity of your laptop.
+                        
+                        At JH Computing, we understand the importance of quick turnaround times for laptop repairs. That's why we strive to provide efficient and timely service, minimizing downtime and ensuring that you can get back to work or play as soon as possible.
+                        
+                        Trust our experienced team to handle your laptop repairs with professionalism and expertise, providing you with peace of mind and a fully functional device.</p>
+                </div>
+            </div>
+    
+            <!-- Service 3 -->
+            <div class="service-item">
+                <img src="../Images/ComputerBuild.png" alt="Service 3">
+                <h3>Computer Repairs and Builds</h3>
+                <p>Computer repairs and builds require a delicate balance of technical expertise and precision to repair your damaged computer or build the system of your dreams.</p>
+                <a href="#" class="read-more-btn" data-modal-id="modal3">Read more</a>
+            </div>
+            <!-- Hidden modal content for Service 3 -->
+            <div id="modal3" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Computer Repairs and Builds</h2>
+                    <p>Laptop Repairs
+
+                        Laptop repairs require a delicate balance of technical expertise and precision to restore your device to its optimal functionality. Our skilled technicians are equipped to handle a wide range of laptop issues, from hardware malfunctions to software glitches.
+                        
+                        The repair process begins with a thorough diagnosis of the problem, where our technicians carefully examine your laptop to identify the root cause of the issue. Whether it's a cracked screen, malfunctioning keyboard, or a virus-infected operating system, we prioritize accuracy in pinpointing the problem to ensure effective solutions.
+                        
+                        Once the issue is identified, our technicians employ industry-leading tools and techniques to execute the necessary repairs with utmost care. From replacing damaged components to reconfiguring software settings, every step is executed with precision to ensure seamless performance and longevity of your laptop.
+                        
+                        At JH Computing, we understand the importance of quick turnaround times for laptop repairs. That's why we strive to provide efficient and timely service, minimizing downtime and ensuring that you can get back to work or play as soon as possible.
+                        
+                        Trust our experienced team to handle your laptop repairs with professionalism and expertise, providing you with peace of mind and a fully functional device.</p>
+                </div>
+            </div>
+            <!-- Add more services as needed -->
+        </div>
+    </section>
+    
+    <section class="contact-cta">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions about our services, feel free to contact us.</p>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    
+    
+    <script src="../JS/services.js"></script>
+</body>
+<footer>
+    <p>&copy; 2024 My Website</p>
+</footer>
+</html>
